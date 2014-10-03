@@ -15,13 +15,6 @@ angular.module('ngAB', [])
                         return response;
                     }
 
-                    // Create obj of tests and chosen permutations
-                    var permutation = Object.keys(spec).reduce(function(obj, k) {
-                        obj[k] = spec[k].perm;
-                        return obj;
-                    }, {});
-
-
                     function applyChange(data, change) {
                         if (!change.find) {
                             return data + change.replace;

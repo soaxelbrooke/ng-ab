@@ -1,0 +1,31 @@
+{
+  "name": "ng-ab",
+  "main": "ng-ab.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/StuartAxelOwen/ng-ab",
+  "authors": [
+    "giftstarter-stuart <stuart@giftstarter.co>"
+  ],
+  "description": "Multivariate and AB testing for AngularJS",
+  "keywords": [
+      "angular ab test",
+      "angular split test",
+      "angular multivariate test",
+      "angularjs ab test",
+      "angularjs split test",
+      "angularjs multivariate test",
+      "angular ab",
+      "angularjs ab",
+      "ng-ab",
+      "ngab",
+      "ng ab"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

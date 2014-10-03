@@ -1,12 +1,10 @@
-ng-ab
-=====
+# ngAB
 
-Multivariate and AB Testing in AngularJS
+AngularJS AB Testing and Multivariate Testing Module
 
-ngAB is an AngularJS module that facilitates AB testing, split testing, and multivariate testing. ngAB intercepts AngularJS templates and edits them according to your specifications.  This allows you to replace HTML, add different styling, and even augment your scripts.
+ngAB is an AngularJS module that facilitates AB testing, split testing, and multivariate testing. ngAB intercepts AngularJS templates and edits them according to your specifications using regexp.  This allows you to replace HTML, add different styling, and even augment your scripts.
 
-Getting Started
-===============
+# Usage
 
 This simple example watches for the `/templates/angular/home.html` file in $http requests.  Upon finding it, ngAB replaces all h1 tags with h4 tags.
 
@@ -35,8 +33,7 @@ module('ngAB').value('spec', {
 // That's it!
 ```
 
-Changing CSS
-============
+## Changing CSS
 
 If the `find` value is left empty for any change element, the replace value is automatically appended to the template.  This makes it easy to change styling after the fact:
 
@@ -55,7 +52,6 @@ module('ngAB').value('spec', {
 }
 ```
 
-Changing JS
-===========
+## Changing JS
 
 Just like changing CSS, but trickier in implementation. Good luck!  

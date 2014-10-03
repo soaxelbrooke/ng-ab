@@ -10,7 +10,7 @@ Getting Started
 
 This simple example watches for the `/templates/angular/home.html` file in $http requests.  Upon finding it, ngAB replaces all h1 tags with h4 tags.
 
-```
+```javascript
 // Declare ngAB as a dependency
 var myModule = angular.module('myModule', ['ngAB']);
 
@@ -40,7 +40,7 @@ Changing CSS
 
 If the `find` value is left empty for any change element, the replace value is automatically appended to the template.  This makes it easy to change styling after the fact:
 
-```
+```javascript
 module('ngAB').value('spec', {
     '/templates/angular/home.html': {
         'body-text-color': {
